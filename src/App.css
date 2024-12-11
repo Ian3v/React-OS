@@ -1,0 +1,35 @@
+html, body {
+    /* position: fixed; */
+    height: 100%;
+    background-color: rgb(61, 111, 219);
+    margin: 0;
+    padding: 0;
+    
+  }
+
+.container-main-hooks{
+    
+    min-height: 100vh; 
+    box-sizing: border-box;
+
+    background-color: rgb(63, 63, 63);
+    max-width: 50rem;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 30px;
+
+    
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+h1,h2,h3,p{
+    color: aliceblue;
+}
+.container{
+    border: 1px wheat solid;
+    border-radius: 30px;
+    padding: 10px;
+    
+}
